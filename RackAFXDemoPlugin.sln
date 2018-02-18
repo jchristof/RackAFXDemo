@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{A0BB6EC9-FBDE-4540-8F0F-8CE37A2E1153}") = "RackAFXDemoPlugin", "RackAFXDemoPlugin.vcproj", "{C7DC18B9-CC6C-4D6B-BF24-A5E80EECB1F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7DC18B9-CC6C-4D6B-BF24-A5E80EECB1F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7DC18B9-CC6C-4D6B-BF24-A5E80EECB1F0}.Debug|Win32.Build.0 = Debug|Win32
+		{C7DC18B9-CC6C-4D6B-BF24-A5E80EECB1F0}.Debug|x64.ActiveCfg = Debug|x64
+		{C7DC18B9-CC6C-4D6B-BF24-A5E80EECB1F0}.Debug|x64.Build.0 = Debug|x64
+		{C7DC18B9-CC6C-4D6B-BF24-A5E80EECB1F0}.Release|Win32.ActiveCfg = Release|Win32
+		{C7DC18B9-CC6C-4D6B-BF24-A5E80EECB1F0}.Release|Win32.Build.0 = Release|Win32
+		{C7DC18B9-CC6C-4D6B-BF24-A5E80EECB1F0}.Release|x64.ActiveCfg = Release|x64
+		{C7DC18B9-CC6C-4D6B-BF24-A5E80EECB1F0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
+
