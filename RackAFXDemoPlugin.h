@@ -108,7 +108,15 @@ public:
 
 	// Add your code here: ----------------------------------------------------------- //
 
+	float m_f_a0_left;
+	float m_f_a1_left;
+	float m_f_a0_right;
+	float m_f_a1_right;
 
+	float m_f_z1_left;
+	float m_f_z1_right;
+
+	float m_fVolume;
 
 	// END OF USER CODE -------------------------------------------------------------- //
 
@@ -116,10 +124,10 @@ public:
 	// ADDED BY RACKAFX -- DO NOT EDIT THIS CODE!!! ----------------------------------- //
 	//  **--0x07FD--**
 
+	float m_fVolume_dB;
+	float m_fSlider_a1;
 
 	// **--0x1A7F--**
 	// ------------------------------------------------------------------------------- //
 
 };
-
-

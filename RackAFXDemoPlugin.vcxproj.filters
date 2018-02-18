@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
@@ -9,9 +9,9 @@
       <UniqueIdentifier>{DD6B3B6A-41BC-419A-8430-F9574BA5D01C}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-     <Filter Include="Resources">
+    <Filter Include="Resources">
       <UniqueIdentifier>{1EB3B0C4-DA65-4E44-A957-74FB56C9EC92}</UniqueIdentifier>
-    </Filter>   
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="plugin.cpp">
@@ -21,6 +21,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="RackAFXDemoPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginobjects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,20 +44,19 @@
       <Filter>Resources</Filter>
     </ClInclude>
   </ItemGroup>
-   <ItemGroup>
-      <Image Include="resources\knobvst.png">
-        <Filter>Resources</Filter>
-      </Image>
-    </ItemGroup>
-    <ItemGroup>
-      <ResourceCompile Include="RackAFXDemoPlugin.rc">
-        <Filter>Resources</Filter>
-      </ResourceCompile>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="RackAFX.uidesc">
-        <Filter>Resources</Filter>
-      </None>
+  <ItemGroup>
+    <Image Include="resources\knobvst.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RackAFXDemoPlugin.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RackAFX.uidesc">
+      <Filter>Resources</Filter>
+    </None>
   </ItemGroup>
 </Project>
-
